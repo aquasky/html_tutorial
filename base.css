@@ -27,6 +27,19 @@ img {
 	border:0;	/* 画像のボーダーを0にする */
 }
 
+p {
+	width:660px;		/* 幅の指定 */
+	margin:10px;		/* マージン */
+	text-indent:1em;	/* インデント幅 */
+}
+
+hr {
+	clear:both;					/* フロート配置をクリアする */
+	width:680px;				/* 幅の指定 */
+	margin:10px 0px;			/* マージン */
+	border:1px dotted #cccccc;	/* 内容の区切りをグレーの点線表示にする */
+}
+
 /*============================================
 ヘッダ
 ============================================*/
@@ -125,6 +138,12 @@ div#submenu ul li a:hover	{
 	text-decoration:underline;		/* リンクにマウスが乗ったら下線を表示 */
 }
 
+div#submenu ul li a:before {
+	content: url("images/icon_submenu.png");	/* アイコン画像を挿入 */
+	margin:0px 10px 0px 0px;					/* マージン */
+	vertical-align:text-top;					/* 縦方向の表示位置 */
+}
+
 /*============================================
 インフォメーション（右カラム）
 ============================================*/
@@ -140,6 +159,7 @@ h3 {
 div#info {
 	width:660px;		/* 幅の指定 */
 	float:left;			/* カラムを左寄せにする */
+	padding:10px 20px 0px 0px;		/* パディング */
 }
 
 .infoimg_index {
@@ -148,15 +168,15 @@ div#info {
 	float:right;				/* 画像を右寄せにする */
 }
 
-hr {
-	clear:both;		/* フロート配置をクリアする */
-}
-
 /*============================================
 フッタ
 ============================================*/
 div#footer {
-	clear:both;		/* 回り込みを解除する */
+	clear:both;					/* 回り込みを解除する */
+	height:40px;				/* 高さの指定 */
+	padding:10px 0px 0px 0px;	/* パディング */
+	font-size:x-small;			/* フォントサイズを小さくする */
+	text-align:center;			/* センタリング */
 }
 
 
