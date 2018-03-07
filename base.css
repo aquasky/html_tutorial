@@ -28,9 +28,12 @@ ul#menu {
 	padding:15px 0px 0px 0px;	/*上パディング*/
 	text-align:center;			/*テキストをセンター揃えにする*/
 	text-decoration:none;		/*リンク部分を下線無しにする*/
+	background-image:url(images/bg_menu1.png);	/*背景画像を指定*/
+	background-repeat:no-repeat; 				/*背景画像を繰り返さない*/
 }
 
 #menu li a:hover {
 	background-color:#000066; 	/*リンクにマウスが乗ったら背景色を変更する*/
+	background-image:url(images/bg_menu2.png); 	/*リンクにマウスが乗ったら背景画像を変更する*/
 }
 
