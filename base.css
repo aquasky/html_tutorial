@@ -7,7 +7,7 @@ body {
 	color:#333333;								/* 文字色を濃い目のグレーにする */
 }
 
-li {
+#menu li {
 	list-style-type:none;	/*リストマーカー無しにする*/
 	display:inline;			/*リスト項目をインライン表示にする*/
 }
