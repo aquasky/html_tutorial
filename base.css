@@ -8,6 +8,7 @@ body {
 }
 
 li {
-	list-style-type:none;						/*リストマーカー無しにする*/
+	list-style-type:none;	/*リストマーカー無しにする*/
+	display:inline;			/*リスト項目をインライン表示にする*/
 }
 
